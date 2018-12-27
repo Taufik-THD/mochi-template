@@ -1,10 +1,10 @@
 import m from 'mithril'
 import marked from 'marked'
-import Hello from '../documents/hello.md'
+import Hello from 'static/hello.md'
 
 import 'mochi-bootstrap'
 
-import '../styles/main.scss'
+import 'assets/main.scss'
 
 export default class Home {
   view() {
