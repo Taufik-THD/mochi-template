@@ -3,8 +3,8 @@ import m from 'mithril'
 import 'mochi-bootstrap'
 import 'assets/main.scss'
 
-import Home from 'pages/home'
-import About from 'pages/about'
+import Home from 'pages/Home'
+import About from 'pages/About'
 
 m.route(document.body, '/', {
   '/': Home,

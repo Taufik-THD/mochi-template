@@ -4,7 +4,7 @@ export default class Footer {
   view() {
     return (
       <div class="container">
-        footer here
+        Made with ♥ by Muhibbudin Suretno
       </div>
     )
   }
