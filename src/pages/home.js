@@ -1,5 +1,5 @@
 import m from 'mithril'
-import convert from 'html-to-jsx'
+import marked from 'marked'
 import Hello from '../markdown/hello.md'
 
 import './style.scss'
@@ -9,7 +9,7 @@ export default class Home {
     return (
       <main>
         <h1 class="green">Page Home</h1>
-        {convert(Hello)}
+        {m.trust(marked(Hello))}
         <a href="#!/about">Page About</a>
       </main>
     )
