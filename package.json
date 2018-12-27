@@ -14,9 +14,5 @@
   "dependencies": {
     "mithril": "^1.1.6",
     "mochijs": "^0.0.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "babel-loader": "^8.0.4"
   }
 }
