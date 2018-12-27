@@ -1,9 +1,9 @@
-export default class App {
-  view() {
-    return (
-      <main>
-        <h1>Hello world</h1>
-      </main>
-    )
-  }
-}
+import m from 'mithril'
+
+import Home from './pages/home'
+import About from './pages/about'
+
+m.route(document.body, "/home", {
+  "/home": Home,
+  "/about": About
+})

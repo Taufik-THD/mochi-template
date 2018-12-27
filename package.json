@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mithril": "^1.1.6",
     "mochijs": "^0.0.2"
   },
   "devDependencies": {
