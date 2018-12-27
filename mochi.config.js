@@ -1,3 +1,7 @@
 module.exports = {
-  // do something
+  head: {
+    title: 'Test',
+    description: 'Something'
+  }
+  // another here
 }
