@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "marked": "^0.5.2",
-    "mithril": "^1.1.6"
+    "mithril": "^1.1.6",
+    "mithril-history-router": "^0.0.3",
+    "mochi-bootstrap": "^1.0.0"
   },
   "devDependencies": {
     "webpack": "^4.28.2",
