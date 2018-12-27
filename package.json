@@ -1,0 +1,21 @@
+{
+  "name": "mochi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "../mochi/mochi.js build --development",
+    "build": "../mochi/mochi.js build",
+    "start": "../mochi/mochi.js serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mochijs": "^0.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.4"
+  }
+}
