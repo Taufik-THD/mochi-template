@@ -1,4 +1,5 @@
 import m from 'mithril'
+import convert from 'html-to-jsx'
 
 import Hello from '../markdown/hello.md'
 
@@ -7,7 +8,7 @@ export default class Home {
     return (
       <main>
         <h1>Page Home</h1>
-        <p>{Hello}</p>
+        {convert(Hello)}
         <a href="#!/about">Page About</a>
       </main>
     )

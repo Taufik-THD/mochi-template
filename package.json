@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "html-to-jsx": "^0.0.4",
     "mithril": "^1.1.6",
     "mochijs": "^0.0.2"
   }
