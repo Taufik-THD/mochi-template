@@ -1,3 +1,3 @@
-#### Can i use markdown?
+#### About Mochi
 
-Yes, of course this example also made from markdown. You can see this file on **static** folder.
+Coming soon

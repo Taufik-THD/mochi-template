@@ -1,3 +1,13 @@
-h1 {
-  color: red;
+.article {
+  padding: 60px 15px;
+  border-bottom: 1px solid #DEDEDE;
+  margin-bottom: 20px;
+}
+.footer {
+  color: #ABABAB;
+  text-align: center;
+
+  span {
+    color: rgb(245, 79, 79);
+  }
 }

@@ -8,7 +8,7 @@ export default class Content {
     return (
       <main>
         <Navbar />
-        <article class="container">
+        <article class="container article">
           {props.children}
         </article>
         <Footer />
