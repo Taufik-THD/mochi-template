@@ -1,5 +1,4 @@
-import m from 'mithril'
-import r from 'mithril-history-router'
+import { Router } from 'mochi-router'
 
 import 'mochi-bootstrap'
 import 'assets/main.scss'
@@ -7,7 +6,7 @@ import 'assets/main.scss'
 import Home from 'pages/Home'
 import About from 'pages/About'
 
-r.router(document.body, '/', {
+new Router('/', {
   '/': Home,
   '/about': About
 })

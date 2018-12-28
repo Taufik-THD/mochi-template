@@ -3,7 +3,7 @@ import m from 'mithril'
 export default class Navbar {
   view() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="/">Mochi</a>
           
@@ -14,10 +14,10 @@ export default class Navbar {
           <div class="collapse navbar-collapse" id="collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="#!/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="#!/about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://github.com/mochijs">Github</a>

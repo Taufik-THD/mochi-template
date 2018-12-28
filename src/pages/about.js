@@ -1,14 +1,14 @@
 import m from 'mithril'
 import marked from 'marked'
-import About from 'static/About.md'
+import Message from 'static/About.md'
 
 import Layout from 'components/Layout'
 
-export default class Home {
+export default class About {
   view() {
     return (
       <Layout>
-        {m.trust(marked(About))}
+        {m.trust(marked(Message))}
       </Layout>
     )
   }
